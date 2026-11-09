@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Antica Trattoria al Mercato, Trento</title>
+<meta name="description" content="Pesce di mare e piatti trentini in piazza Garzetti, nel centro di Trento. Una trattoria dal 1931.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Antica Trattoria al Mercato, Trento">
+<meta property="og:description" content="Pesce di mare e piatti trentini in piazza Garzetti. Dal 1931.">
+<meta property="og:image" content="https://thomaszasso90-star.github.io/anteprima-7835d66a275a/foto/anteprima.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://thomaszasso90-star.github.io/anteprima-7835d66a275a/">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#2a1c13">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 fill=%22%232a1c13%22/%3E%3Ctext x=%2232%22 y=%2246%22 font-family=%22Georgia,serif%22 font-size=%2240%22 fill=%22%23d4a456%22 text-anchor=%22middle%22%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="foto/hero-scoglio.webp" imagesrcset="foto/hero-scoglio-1000.webp 1000w, foto/hero-scoglio.webp 2400w" imagesizes="100vw">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="bar">
+  <a class="wordmark" href="#top">Al Mercato</a>
+  <nav aria-label="Principale">
+    <a href="#menu">Menù</a>
+    <a href="#storia">Storia</a>
+    <a href="#dove">Dove siamo</a>
+  </nav>
+  <a class="btn btn-small" href="tel:+390461528078">Chiama</a>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="titolo">
+    <img class="hero-img" src="foto/hero-scoglio.webp" srcset="foto/hero-scoglio-1000.webp 1000w, foto/hero-scoglio.webp 2400w" sizes="100vw" alt="Spaghetti allo scoglio con scampi, cozze e vongole su un tavolo di legno" width="2400" height="1911" fetchpriority="high">
+    <div class="hero-txt">
+      <h1 id="titolo" class="rv">Antica Trattoria<br>al Mercato</h1>
+      <p class="lead rv">Pesce di mare e piatti trentini in piazza Garzetti, nel cuore di Trento. Dal 1931.</p>
+      <div class="actions rv">
+        <a class="btn" href="tel:+390461528078">Prenota: 0461 528078</a>
+        <a class="link" href="#menu">Guarda il menù</a>
+      </div>
+      <p class="oggi rv" id="oggi">Aperti a pranzo e a cena. Il lunedì siamo chiusi.</p>
+    </div>
+  </section>
+
+  <section class="lettera" id="chi" aria-labelledby="t-chi">
+    <figure class="lettera-foto rv">
+      <img src="foto/piazza-calice.webp" srcset="foto/piazza-calice-1000.webp 1000w, foto/piazza-calice.webp 1350w" sizes="(min-width: 881px) 42vw, 100vw" alt="Un calice di bianco ai tavoli all’aperto, con piazza Garzetti sullo sfondo" width="1350" height="1800" loading="lazy">
+    </figure>
+    <div class="lettera-txt">
+      <h2 id="t-chi" class="rv">Siamo Marco e Adina</h2>
+      <p class="rv">Da febbraio 2026 gestiamo la trattoria Al Mercato, che in piazza Garzetti c’è dal 1931.</p>
+      <p class="rv">Per più di sessant’anni l’ha tenuta la famiglia Baldessari, con la cucina trentina di casa. Raccogliere un’eredità così è una grande responsabilità, ma anche una bellissima sfida.</p>
+      <p class="rv">Io sono di famiglia trentina, mamma di Tione e papà di Stenico, ma sono nato e cresciuto a Chiavari, in Liguria. Per questo in cucina trovate il mare: il polipo alla ligure, gli spaghetti alle vongole, la frittura di alici. E accanto, la montagna di sempre.</p>
+      <p class="rv">Prezzi giusti e un’attenzione ai pranzi di lavoro: lo spirito della trattoria resta quello di prima.</p>
+      <p class="sign rv">Marco Parisi e Adina</p>
+    </div>
+  </section>
+
+  <section class="menu" id="menu" aria-labelledby="t-menu">
+    <div class="menu-txt">
+      <h2 id="t-menu" class="rv">Mare e montagna</h2>
+      <p class="menu-intro rv">Il pesce arriva fresco, la pasta è fatta a mano. Scegliete da che parte cominciare.</p>
+      <div class="tabs rv" role="tablist" aria-label="Scegli il menù">
+        <button role="tab" id="tab-mare" aria-controls="p-mare" aria-selected="true" data-tab="mare">Dal mare</button>
+        <button role="tab" id="tab-montagna" aria-controls="p-montagna" aria-selected="false" data-tab="montagna">Dalla montagna</button>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-mare" aria-labelledby="tab-mare">
+        <h3>Antipasti</h3>
+        <ul class="rows">
+          <li><span>Polipo alla ligure<small>con patate e olive taggiasche</small></span><b>14</b></li>
+          <li><span>Frittura di alici</span><b>12</b></li>
+          <li><span>Antipasto misto di mare</span><b>16</b></li>
+        </ul>
+        <h3>Primi</h3>
+        <ul class="rows">
+          <li><span>Spaghetti alle vongole</span><b>14</b></li>
+          <li><span>Spaghetti allo scoglio</span><b>16</b></li>
+          <li><span>Maltagliati al ragù di triglia<small>pasta fatta a mano</small></span><b>14</b></li>
+          <li><span>Paccheri al pesce spada</span><b>14</b></li>
+        </ul>
+        <h3>Secondi</h3>
+        <ul class="rows">
+          <li><span>Frittura di mare</span><b>18</b></li>
+          <li><span>Branzino alla griglia</span><b>20</b></li>
+          <li><span>Orata al forno</span><b>19</b></li>
+          <li><span>Zuppa di pesce<small>con i crostoni di pane</small></span><b>20</b></li>
+        </ul>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-montagna" aria-labelledby="tab-montagna">
+        <h3>Per cominciare</h3>
+        <ul class="rows">
+          <li><span>Tagliere di salumi e formaggi trentini</span><b>13</b></li>
+          <li><span>Canederli<small>al burro fuso o in brodo</small></span><b>11</b></li>
+          <li><span>Gnocchetti tirolesi</span><b>11</b></li>
+        </ul>
+        <h3>Piatti di carne</h3>
+        <ul class="rows">
+          <li><span>Goulash con polenta</span><b>13</b></li>
+          <li><span>Brasato al Teroldego</span><b>15</b></li>
+          <li><span>Stinco con patate</span><b>16</b></li>
+        </ul>
+        <h3>Dolci</h3>
+        <ul class="rows">
+          <li><span>Strudel di mele</span><b>6</b></li>
+          <li><span>Tiramisù</span><b>6</b></li>
+        </ul>
+      </div>
+
+      <p class="nota rv">Prezzi in euro. Il menù cambia con le stagioni: chiamateci per sapere cosa c’è oggi.</p>
+    </div>
+
+    <div class="menu-foto rv" aria-hidden="true">
+      <img class="mf on" data-key="mare" src="foto/mare.webp" srcset="foto/mare-1000.webp 1000w, foto/mare.webp 1600w" sizes="(min-width: 881px) 42vw, 100vw" alt="" width="1600" height="2400" loading="lazy">
+      <img class="mf" data-key="montagna" src="foto/montagna.webp" srcset="foto/montagna-1000.webp 1000w, foto/montagna.webp 1350w" sizes="(min-width: 881px) 40vw, 100vw" alt="" width="1350" height="2400" loading="lazy">
+    </div>
+  </section>
+
+  <section class="storia" id="storia" aria-labelledby="t-storia">
+    <div class="storia-txt">
+      <h2 id="t-storia" class="rv">Dal 1931 a oggi</h2>
+      <dl class="anni">
+        <div class="rv"><dt>1931</dt><dd>Apre la trattoria Al Mercato, in piazza Garzetti.</dd></div>
+        <div class="rv"><dt>Anni ’50</dt><dd>La prendono Bruno e Valeria Baldessari, poi con il figlio Dino: oltre sessant’anni di cucina trentina di casa.</dd></div>
+        <div class="rv"><dt>2026</dt><dd>Il 21 febbraio riapre con Marco Parisi e Adina. Il mare entra in menù, la tradizione resta.</dd></div>
+      </dl>
+    </div>
+    <figure class="storia-foto rv">
+      <img src="foto/fontana.webp" srcset="foto/fontana-1000.webp 1000w, foto/fontana.webp 1700w" sizes="(min-width: 881px) 40vw, 100vw" alt="La fontana in pietra di piazza Garzetti, a Trento" width="1700" height="2267" loading="lazy">
+    </figure>
+  </section>
+
+  <section class="galleria" aria-labelledby="t-gal">
+    <h2 id="t-gal" class="rv">Dalla nostra cucina</h2>
+    <div class="mosaico">
+      <figure class="m1 rv"><img src="foto/pasta-mare.webp" srcset="foto/pasta-mare-1000.webp 1000w, foto/pasta-mare.webp 1800w" sizes="(min-width: 881px) 56vw, 100vw" alt="Spaghetti con cozze e gamberi in un piatto fondo" width="1800" height="1351" loading="lazy"><figcaption>Spaghetti ai frutti di mare</figcaption></figure>
+      <figure class="m2 rv"><img src="foto/frittura.webp" srcset="foto/frittura-1000.webp 1000w, foto/frittura.webp 1800w" sizes="(min-width: 881px) 40vw, 50vw" alt="Frittura di calamari, gamberi e zucchine con limone" width="1800" height="1243" loading="lazy"><figcaption>Frittura di mare</figcaption></figure>
+      <figure class="m3 rv"><img src="foto/montagna.webp" srcset="foto/montagna-1000.webp 1000w, foto/montagna.webp 1350w" sizes="(min-width: 881px) 40vw, 50vw" alt="Canederli su un tagliere di legno con vino rosso" width="1350" height="2400" loading="lazy"><figcaption>Canederli</figcaption></figure>
+      <figure class="m4 rv"><img src="foto/tagliere-hd.webp" srcset="foto/tagliere-hd-1000.webp 1000w, foto/tagliere-hd.webp 1800w" sizes="(min-width: 881px) 32vw, 50vw" alt="Tagliere di salumi e formaggi" width="1800" height="1378" loading="lazy"><figcaption>Il tagliere</figcaption></figure>
+      <figure class="m5 rv"><img src="foto/gulasch.webp" srcset="foto/gulasch-1000.webp 1000w, foto/gulasch.webp 1800w" sizes="(min-width: 881px) 24vw, 50vw" alt="Goulash di manzo con polenta abbrustolita" width="1800" height="1350" loading="lazy"><figcaption>Goulash con polenta</figcaption></figure>
+      <figure class="m6 rv"><img src="foto/strudel-hd.webp" srcset="foto/strudel-hd-1000.webp 1000w, foto/strudel-hd.webp 1800w" sizes="(min-width: 881px) 56vw, 100vw" alt="Una fetta di strudel di mele con salsa alla vaniglia" width="1800" height="1350" loading="lazy"><figcaption>Strudel di mele</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="dove" id="dove" aria-labelledby="t-dove">
+    <img class="dove-img" src="foto/sera.webp" srcset="foto/sera-1000.webp 1000w, foto/sera.webp 2400w" sizes="100vw" alt="" width="2400" height="1597" loading="lazy">
+    <div class="dove-in">
+      <div class="dove-txt">
+        <h2 id="t-dove" class="rv">Venite a trovarci</h2>
+        <p class="tel rv"><a href="tel:+390461528078">0461 528078</a></p>
+        <p class="rv">Piazza Garzetti 15, Trento. Aperti a pranzo e a cena, chiuso il lunedì. Meglio prenotare.</p>
+        <p class="rv">Per gruppi e pranzi di lavoro chiamate Marco al 392 9457466.</p>
+        <div class="actions rv">
+          <a class="btn" href="tel:+390461528078">Chiama ora</a>
+          <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Piazza+Garzetti+15+Trento">Come arrivare</a>
+        </div>
+      </div>
+      <div class="mappa rv">
+        <iframe title="Mappa: piazza Garzetti 15, Trento" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=11.1195%2C46.0640%2C11.1285%2C46.0680&amp;layer=mapnik&amp;marker=46.06598%2C11.12388"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="foot-nome">Al Mercato</p>
+  <div class="foot-cols">
+    <p>Antica Trattoria al Mercato<br>Piazza Garzetti 15, 38122 Trento<br><a href="tel:+390461528078">0461 528078</a></p>
+    <p>Pranzo e cena<br>Chiuso il lunedì</p>
+    <p><a href="https://www.instagram.com/trattoria.mercato.trento/">Instagram</a><br><a href="https://www.facebook.com/61585281495620">Facebook</a></p>
+  </div>
+  <details class="crediti">
+    <summary>Pagina dimostrativa di Thomas Zasso. Crediti delle foto</summary>
+    <p>
+      <a href="https://commons.wikimedia.org/w/index.php?curid=158739357">“Spaghetti Allo Scoglio, Villa Romana Trattoria, Cairns, 2025, 01”</a> di Chris Olszewski, CC BY-SA 4.0;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=192225945">“Fresh seafood display…”</a> di Shixart1985, CC BY 2.0;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=166290629">“Vinschger Knödel”</a> di Sascha Plangger, CC BY 4.0;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=7864475">“Trento-fountain piazza Garzetti”</a> di Matteo Ianeselli, CC BY-SA 3.0;
+      <a href="https://commons.wikimedia.org/wiki/File:Wood_table_large_diff_8k_(JPG).jpg">“Wood table large”</a> di Poly Haven, CC0, scurita;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=114474466">“A Italian Seafood pasta”</a> di Peachyeung316, CC BY-SA 4.0;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=128843460">“Frittura di pesce tipica delle coste Toscane”</a> di PROPOLI87, CC BY-SA 4.0;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=162988114">“Tagliere toscano”</a> di Albarubescens, CC BY-SA 4.0;
+      <a href="https://commons.wikimedia.org/wiki/File:Rindergulasch_mit_Polenta.jpg">“Rindergulasch mit Polenta”</a> di Benreis, CC BY-SA 4.0;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=146743552">“Apple strudel at Südtirol Café”</a> di JIP, CC BY-SA 4.0;
+      <a href="https://commons.wikimedia.org/w/index.php?curid=189032526">“DZ6 2645…”</a> di PattayaPatrol, CC BY-SA 4.0; tutte via Wikimedia Commons, ridimensionate.
+      Piazza Garzetti dal dehors: foto di un cliente su Tripadvisor, provvisoria.
+    </p>
+  </details>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
