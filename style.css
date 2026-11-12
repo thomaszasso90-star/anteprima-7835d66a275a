@@ -98,7 +98,7 @@ h2 { font-size: var(--step-head); line-height: 1.02; letter-spacing: -0.015em; m
 .menu {
   position: relative; display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(40px, 6vw, 100px);
   padding: var(--gap-section) var(--m); color: var(--avorio);
-  background: var(--noce) url("foto/legno-scuro.webp") center / cover;
+  background: var(--noce) url("foto/legno-scuro.webp?v=2") center / cover;
 }
 .menu::before { content: ""; position: absolute; inset: 0; background: rgba(20, 12, 7, .38); }
 .menu > * { position: relative; }
@@ -186,7 +186,7 @@ html.js .panel[hidden] { display: none; }
 /* Chiusura su legno */
 .foot {
   position: relative; padding: clamp(72px, 9vw, 140px) var(--m) 32px; color: var(--avorio);
-  background: var(--noce) url("foto/legno-scuro.webp") center / cover;
+  background: var(--noce) url("foto/legno-scuro.webp?v=2") center / cover;
 }
 .foot::before { content: ""; position: absolute; inset: 0; background: rgba(20, 12, 7, .5); }
 .foot > * { position: relative; }
@@ -203,7 +203,7 @@ html.js .rv { opacity: 0; transform: translateY(28px); transition: opacity .9s v
 html.js .rv.in { opacity: 1; transform: none; }
 
 @media (max-width: 880px) {
-  .menu, .foot { background-image: url("foto/legno-scuro-1600.webp"); }
+  .menu, .foot { background-image: url("foto/legno-scuro-1600.webp?v=2"); }
   .bar { gap: 16px; }
   .bar nav { display: none; }
   .hero { min-height: 92svh; }
